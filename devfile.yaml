@@ -32,4 +32,4 @@ commands:
       label: "Generate React Archetype"
       component: tools
       workingDir: ${PROJECT_SOURCE}
-      commandLine: "npx create-react-app my-app ${input:appName}"
+      commandLine: "npx create-react-app ${input:appName}"
