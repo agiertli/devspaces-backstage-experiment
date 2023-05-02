@@ -1,0 +1,12 @@
+{
+	"version": "2.0.0",
+	"tasks": [],
+	"inputs": [
+		{
+			"type": "promptString",
+			"id": "appName",
+			"description": "Name of the WebSDK Application",
+			"default": "default-app-name"
+		}
+	]
+}
