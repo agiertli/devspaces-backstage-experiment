@@ -35,4 +35,8 @@ yarn start
 ```
 oc get route | grep 3000
 ```
-Open the URL above in the browser using `http://` schema prefix; It fails with `Application is not available` even though `curl localhost:3000` works
+Open the URL above in the browser using `http://` schema prefix; It fails with `Application is not available` even though `curl localhost:3000` works.
+
+
+[![Contribute](https://www.eclipse.org/che/contribute.svg)](https://devspaces.apps.sandbox-m3.1530.p1.openshiftapps.com/f?url=https://github.com/agiertli/devspaces-backstage-experiment)
+
