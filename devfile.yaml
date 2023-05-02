@@ -25,4 +25,11 @@ components:
           targetPort: 7007                
   - name: npm
     volume:
-      size: 1G          
+      size: 1G    
+commands:
+  - id: generate-react-archetype
+    exec:
+      label: "Generate React Archetype"
+      component: tools
+      workingDir: ${PROJECT_SOURCE}
+      commandLine: "npx create-react-app my-app ${input:appName}"
